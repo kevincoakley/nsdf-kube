@@ -1,0 +1,4 @@
+---
+- hosts: k8s_cluster
+
+- import_playbook: external/kubespray/cluster.yml 
